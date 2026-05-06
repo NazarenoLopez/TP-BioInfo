@@ -1,16 +1,19 @@
-# TP-BioInfo — Aplicación Java
+# TP-BioInfo — Aplicación Python
 
-Proyecto inicializado con Maven.
+Proyecto base en Python.
 
 ## Requisitos
 
-- Java 17
-- Maven 3.x
+- Python 3.10+
 
-## Compilar y ejecutar
+## Ejecutar la app
 
 ```bash
-mvn package
-java -cp target/tp-bioinfo-0.1.0-SNAPSHOT.jar com.example.App
+python -m src.app
 ```
-# TP-BioInfo
+
+## Ejecutar tests
+
+```bash
+python -m unittest discover -s tests -p "test_*.py"
+```
