@@ -1,6 +1,6 @@
 import unittest
 
-from src.app import get_message
+from Ejercicio_1 import get_message
 
 
 class AppTest(unittest.TestCase):
