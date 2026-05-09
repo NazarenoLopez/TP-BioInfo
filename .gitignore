@@ -1,6 +1,13 @@
 .vscode/
 *.log
 
+# Carpeta de bases de datos BLAST - archivos muy grandes
+Swissport/
+
+# Archivos de salida
+blast_local_report.xml
+*.xml
+
 # Python
 __pycache__/
 *.py[cod]
