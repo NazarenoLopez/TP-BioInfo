@@ -14,7 +14,7 @@ respecto del humano. Todos provienen de SwissProt (UniProt curado manualmente):
 
 | Especie | UniProt ID | Identificador | Largo (aa) |
 |---|---|---|---|
-| *Homo sapiens* (query) | P42858 | HD_HUMAN | 3 142 |
+| *Homo sapiens* (query) | P42858 | HD_HUMAN | 3 144 |
 | *Mus musculus* (ratón) | P42859 | HD_MOUSE | 3 119 |
 | *Rattus norvegicus* (rata) | P51111 | HD_RAT | 3 110 |
 | *Takifugu rubripes* (pez globo japonés) | P51112 | HD_TAKRU | 3 148 |
@@ -98,17 +98,17 @@ inmediata el rasgo más característico de HTT — la **expansión de poliglutam
 
 ```
 HD_HUMAN  MATLEKLMKAFESLKSF QQQQQQQQQQQQQQQQQQQQQQQ PPPPPPPPPPP...
-HD_MOUSE  MATLEKLMKAFESLKSF QQQQQQQQ--------------- PPQAPPPPPPP...
+HD_MOUSE  MATLEKLMKAFESLKSF QQQQQQQP--------------- PPQAPPPPPPP...
 HD_RAT    -------MKAFESLKSF QQQQQQQQ--------------- PPPQPPPPPPP...
-HD_TAKRU  MATMEKLMKAFESLKSF QQQQQ------------------ -----------...
+HD_TAKRU  MATMEKLMKAFESLKSF QQQQG------------------ -----------...
 ```
 
 | Especie | Glutaminas consecutivas (Poly-Q) |
 |---|---|
 | Humano   | 23 Q |
-| Ratón    | 8 Q |
+| Ratón    | 7 Q |
 | Rata     | 8 Q |
-| Fugu     | 5 Q |
+| Fugu     | 4 Q |
 
 Este resultado es justamente el fenómeno descripto por **David Mount (cap. 4)**
 sobre las **regiones de baja complejidad**: aunque el resto de la proteína se
@@ -119,7 +119,7 @@ altamente variable entre especies**.
 Este rasgo es de relevancia clínica directa: en humanos, la **expansión patológica
 del tracto Poly-Q por encima de ~36-40 repeticiones** es justamente la mutación
 responsable de la enfermedad de Huntington. El alineamiento muestra que el
-"baseline" funcional es notoriamente menor (5-23 Q según la especie), confirmando
+"baseline" funcional es notoriamente menor (4-23 Q según la especie), confirmando
 que la patología no está en la presencia del tracto sino en su elongación
 descontrolada.
 

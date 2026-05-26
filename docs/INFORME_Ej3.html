@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 3 — MSA de Huntingtina</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --fg: #1f2328;
+    --muted: #6b7280;
+    --accent: #0b6e4f;
+    --accent-soft: #e6f3ee;
+    --border: #d8d8d0;
+    --code-bg: #f4f2eb;
+    --highlight: #fff3a8;
+    --polyq: #ffd166;
+    --polyp: #b8e0d2;
+    --conserved: #1f6f43;
+    --gap: #c9c9c0;
+    --table-stripe: #f3f1ea;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); }
+  body {
+    font-family: -apple-system, "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 32px 96px;
+  }
+  header.cover {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 28px;
+    margin-bottom: 36px;
+  }
+  header.cover .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  header.cover h1 {
+    font-size: 34px;
+    margin: 6px 0 10px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+  header.cover .subtitle {
+    color: var(--muted);
+    font-size: 16px;
+  }
+  header.cover .meta {
+    display: flex;
+    gap: 24px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  header.cover .meta span strong { color: var(--fg); font-weight: 600; }
+  h2 {
+    font-size: 22px;
+    margin-top: 44px;
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent-soft);
+    color: var(--fg);
+  }
+  h2 .num {
+    color: var(--accent);
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  h3 {
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 8px;
+    color: var(--fg);
+  }
+  p { margin: 10px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 20px;
+    font-size: 14.5px;
+  }
+  th, td {
+    padding: 9px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  tbody tr:nth-child(even) { background: var(--table-stripe); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  code {
+    background: var(--code-bg);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-family: "JetBrains Mono", "Consolas", "Menlo", monospace;
+    font-size: 13.5px;
+  }
+  pre {
+    background: var(--code-bg);
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    overflow-x: auto;
+    font-family: "JetBrains Mono", "Consolas", "Menlo", monospace;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 18px 0 8px;
+  }
+  .stat {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .stat .label {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+  .stat .value {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 4px;
+    color: var(--fg);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat .value .small { font-size: 13px; color: var(--muted); font-weight: 400; }
+
+  .alignment {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    overflow-x: auto;
+    font-family: "JetBrains Mono", "Consolas", "Menlo", monospace;
+    font-size: 12.5px;
+    line-height: 1.65;
+    margin: 14px 0;
+  }
+  .alignment .label {
+    color: var(--muted);
+    margin-right: 14px;
+    display: inline-block;
+    width: 18ch;
+  }
+  .alignment .row { white-space: pre; }
+  .alignment .row.cons { color: var(--accent); font-weight: 700; }
+  .alignment .polyq { background: var(--polyq); padding: 1px 0; }
+  .alignment .polyp { background: var(--polyp); padding: 1px 0; }
+  .alignment .gap   { color: var(--gap); }
+
+  .legend {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 8px;
+    margin-bottom: 14px;
+  }
+  .legend .swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 6px;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 18px 0;
+    font-size: 15px;
+  }
+  .callout strong { color: var(--accent); }
+
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  @media print {
+    body { background: white; }
+    main { padding: 24px; }
+    .alignment, .stat, pre { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header class="cover">
+  <div class="eyebrow">Trabajo Práctico de Bioinformática · UTN</div>
+  <h1>Ejercicio 3 — Alineamiento Múltiple de Secuencias (MSA)</h1>
+  <div class="subtitle">Conservación evolutiva de Huntingtina (HTT) en vertebrados</div>
+  <div class="meta">
+    <span><strong>Gen:</strong> HTT (NM_002111)</span>
+    <span><strong>Herramienta:</strong> Clustal Omega 1.2.4</span>
+    <span><strong>Secuencias:</strong> 4 ortólogos</span>
+  </div>
+</header>
+
+<section>
+  <h2><span class="num">1.</span>Objetivo</h2>
+  <p>
+    Realizar un alineamiento múltiple entre la secuencia proteica de
+    <strong>Huntingtina (HTT)</strong> humana y los ortólogos detectados en el
+    reporte BLAST del Ejercicio 2, para evaluar la conservación evolutiva de la
+    proteína y caracterizar sus regiones variables.
+  </p>
+</section>
+
+<section>
+  <h2><span class="num">2.</span>Selección de secuencias</h2>
+  <p>
+    A partir de los hits significativos del BLAST local contra SwissProt (Ej2)
+    se seleccionaron tres ortólogos representativos de distintas distancias
+    evolutivas respecto del humano. Todos provienen de SwissProt (UniProt
+    curado manualmente):
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Especie</th>
+        <th>UniProt ID</th>
+        <th>Identificador</th>
+        <th class="num">Largo (aa)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><em>Homo sapiens</em> (query)</td><td><code>P42858</code></td><td>HD_HUMAN</td><td class="num">3 144</td></tr>
+      <tr><td><em>Mus musculus</em> (ratón)</td><td><code>P42859</code></td><td>HD_MOUSE</td><td class="num">3 119</td></tr>
+      <tr><td><em>Rattus norvegicus</em> (rata)</td><td><code>P51111</code></td><td>HD_RAT</td><td class="num">3 110</td></tr>
+      <tr><td><em>Takifugu rubripes</em> (pez globo)</td><td><code>P51112</code></td><td>HD_TAKRU</td><td class="num">3 148</td></tr>
+    </tbody>
+  </table>
+  <p>
+    La query humana se obtuvo extrayendo la traducción anotada del <strong>CDS</strong>
+    del archivo <code>HTT_mRNA.gbk</code> ya utilizado en el Ej1. Los ortólogos
+    se descargaron automáticamente desde la API REST de UniProt
+    (<code>https://rest.uniprot.org/uniprotkb/{ID}.fasta</code>).
+  </p>
+</section>
+
+<section>
+  <h2><span class="num">3.</span>Metodología y herramientas</h2>
+  <p>Se desarrolló el script <code>src/Ex3.py</code> en Python (Biopython) que automatiza:</p>
+  <ul>
+    <li><strong>Extracción de la query humana</strong> desde el CDS del GenBank (<code>HTT_mRNA.gbk</code>).</li>
+    <li><strong>Descarga de ortólogos</strong> desde la API REST de UniProt (con caché local en <code>data/orthologs/</code>).</li>
+    <li><strong>Combinación</strong> de las 4 secuencias en <code>results/HTT_combined.fasta</code>.</li>
+    <li><strong>Alineamiento múltiple</strong> con <strong>Clustal Omega 1.2.4</strong> invocado vía <code>subprocess</code>.</li>
+    <li><strong>Generación de dos formatos de salida:</strong>
+      <code>HTT_msa.aln</code> (Clustal, legible) y <code>HTT_msa.fasta</code> (apto para parseo).
+    </li>
+  </ul>
+
+  <h3>Comando de Clustal Omega</h3>
+  <pre><code>clustalo -i results/HTT_combined.fasta \
+         -o results/HTT_msa.aln \
+         --outfmt clu --force -v</code></pre>
+
+  <h3>Instrucciones de ejecución</h3>
+  <pre><code>sudo apt install -y clustalo
+pip install -r requirements.txt
+python src/Ex3.py</code></pre>
+</section>
+
+<section>
+  <h2><span class="num">4.</span>Resultados</h2>
+
+  <h3>4.1. Estadísticas generales del alineamiento</h3>
+  <div class="stats">
+    <div class="stat">
+      <div class="label">Secuencias</div>
+      <div class="value">4</div>
+    </div>
+    <div class="stat">
+      <div class="label">Longitud (columnas)</div>
+      <div class="value">3 226</div>
+    </div>
+    <div class="stat">
+      <div class="label">100% conservadas</div>
+      <div class="value">2 113 <span class="small">(65,5%)</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">Con al menos un gap</div>
+      <div class="value">171 <span class="small">(5,3%)</span></div>
+    </div>
+  </div>
+
+  <h3>4.2. Identidad por pares respecto a HD_HUMAN</h3>
+  <table>
+    <thead>
+      <tr><th>Comparación</th><th class="num">Identidad</th><th>Distancia evolutiva</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>HD_HUMAN ↔ HD_MOUSE</td><td class="num"><strong>91,1%</strong></td><td>mamífero — mamífero (~90 Ma)</td></tr>
+      <tr><td>HD_HUMAN ↔ HD_RAT</td><td class="num"><strong>90,8%</strong></td><td>mamífero — mamífero (~90 Ma)</td></tr>
+      <tr><td>HD_HUMAN ↔ HD_TAKRU</td><td class="num"><strong>72,5%</strong></td><td>mamífero — pez óseo (~450 Ma)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>4.3. Bloque inicial del MSA (extremo N-terminal)</h3>
+  <p>
+    Visualización del primer bloque del archivo <code>results/HTT_msa.aln</code>.
+    El tracto Poly-Q está resaltado en amarillo y el tracto Poly-P en verde claro:
+  </p>
+  <div class="alignment">
+<div class="row"><span class="label">HD_HUMAN</span>MATLEKLMKAFESLKSF<span class="polyq">QQQQQQQQQQQQQQQQQQQQQQQ</span><span class="polyp">PPPPPPPPPPP</span>QLPQPPPQA</div>
+<div class="row"><span class="label">HD_MOUSE</span>MATLEKLMKAFESLKSF<span class="polyq">QQQQQQQ</span>P<span class="gap">-------------</span><span class="polyp">PPQAPPPPPPP</span>PPQPPQPPPQG</div>
+<div class="row"><span class="label">HD_RAT</span><span class="gap">-------</span>MKAFESLKSF<span class="polyq">QQQQQQQQ</span><span class="gap">-------------</span><span class="polyp">PPPQPPPPPPP</span>PPQPPQPPPQG</div>
+<div class="row"><span class="label">HD_TAKRU</span>MATMEKLMKAFESLKSF<span class="polyq">QQQQ</span>G<span class="gap">--------------------------------------</span></div>
+<div class="row cons"><span class="label">conservación</span>       **************                                       </div>
+  </div>
+  <div class="legend">
+    <span><span class="swatch" style="background: var(--polyq);"></span>Tracto Poly-Q (variable)</span>
+    <span><span class="swatch" style="background: var(--polyp);"></span>Tracto Poly-P</span>
+    <span><span class="swatch" style="background: var(--gap);"></span>Gap (—)</span>
+    <span><span class="swatch" style="background: var(--accent); border-color: var(--accent);"></span>Columna 100% conservada (*)</span>
+  </div>
+
+  <table>
+    <thead><tr><th>Especie</th><th class="num">Glutaminas consecutivas (Poly-Q)</th></tr></thead>
+    <tbody>
+      <tr><td>Humano</td><td class="num"><strong>23 Q</strong></td></tr>
+      <tr><td>Ratón</td><td class="num">7 Q</td></tr>
+      <tr><td>Rata</td><td class="num">8 Q</td></tr>
+      <tr><td>Fugu</td><td class="num">4 Q</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="num">5.</span>Interpretación</h2>
+
+  <h3>5.1. Conservación general</h3>
+  <p>
+    La proteína Huntingtina presenta una <strong>muy alta conservación</strong>
+    entre vertebrados. Los porcentajes de identidad por pares siguen el árbol
+    filogenético esperado: humano↔ratón/rata ≈ 91% (divergencia mamífero–mamífero,
+    ~90 Ma) y humano↔fugu ≈ 73% (vertebrado no-mamífero, ~450 Ma).
+  </p>
+  <div class="callout">
+    Que el <strong>65% de las columnas estén perfectamente conservadas</strong>
+    (sin sustituciones ni gaps) en una proteína de más de 3 100 aa es un indicador
+    inequívoco de que la mayor parte de la cadena cumple funciones esenciales
+    sometidas a fuerte <strong>presión selectiva purificadora</strong>.
+  </div>
+
+  <h3>5.2. Región Poly-Q: la "región de baja complejidad" predicha por Mount</h3>
+  <p>
+    El primer bloque del alineamiento muestra de forma inmediata el rasgo más
+    característico de HTT: la <strong>expansión de poliglutaminas (Poly-Q)</strong>
+    cerca del extremo N-terminal. Este resultado es justamente el fenómeno
+    descripto por <strong>David Mount (cap. 4)</strong> sobre las <strong>regiones
+    de baja complejidad</strong>: aunque el resto de la proteína se conserva
+    fuertemente — los flanqueos <code>MATLEKLMKAFESLKSF</code> y <code>PPPPPP…</code>
+    aparecen prácticamente idénticos en mamíferos — la <strong>longitud del tracto
+    repetitivo es altamente variable entre especies</strong>.
+  </p>
+  <div class="callout">
+    Este rasgo es de <strong>relevancia clínica directa</strong>: en humanos, la
+    expansión patológica del tracto Poly-Q por encima de ~36–40 repeticiones es
+    justamente la mutación responsable de la <strong>enfermedad de Huntington</strong>.
+    El alineamiento muestra que el "baseline" funcional es notoriamente menor
+    (4–23 Q según la especie), confirmando que la patología no está en la
+    presencia del tracto sino en su elongación descontrolada.
+  </div>
+
+  <h3>5.3. Región C-terminal y dominios HEAT</h3>
+  <p>
+    El resto del alineamiento presenta <strong>bloques largos de identidad casi
+    total</strong> intercalados con regiones más variables — patrón consistente
+    con la presencia de los repetidos <strong>HEAT</strong> (Huntingtin–Elongation
+    factor 3–PP2A–TOR1) que conforman la estructura modular alfa-solenoide de
+    HTT. Estos dominios son fundamentales para sus funciones de <em>scaffold</em>
+    en transporte vesicular y desarrollo neuronal, lo cual justifica
+    biológicamente la fuerte presión selectiva observada.
+  </p>
+</section>
+
+<section>
+  <h2><span class="num">6.</span>Conclusión</h2>
+  <p>
+    El alineamiento múltiple confirma que <strong>HTT es una proteína
+    evolutivamente muy conservada</strong> (&gt; 90% identidad entre mamíferos,
+    ~73% con un vertebrado lejano), en consistencia con su rol esencial en el
+    desarrollo neuronal. La <strong>única región notoriamente variable</strong>
+    entre especies es la <strong>expansión Poly-Q</strong> del N-terminal, que
+    en humanos es además el sustrato de la mutación causante de la enfermedad
+    de Huntington. El resultado del MSA respalda y profundiza la interpretación
+    biológica iniciada con el reporte BLAST del Ej2.
+  </p>
+</section>
+
+<section>
+  <h2><span class="num">7.</span>Archivos generados</h2>
+  <pre><code>data/orthologs/P42859.fasta        # HD_MOUSE (descargado de UniProt)
+data/orthologs/P51111.fasta        # HD_RAT
+data/orthologs/P51112.fasta        # HD_TAKRU
+results/HTT_combined.fasta         # Input combinado (4 secuencias)
+results/HTT_msa.aln                # MSA en formato Clustal (legible)
+results/HTT_msa.fasta              # MSA en formato FASTA (para parseo)
+src/Ex3.py                         # Script del ejercicio</code></pre>
+</section>
+
+<footer>
+  TP-BioInfo · Ejercicio 3 · MSA con Clustal Omega · Análisis del gen HTT
+</footer>
+
+</main>
+</body>
+</html>
