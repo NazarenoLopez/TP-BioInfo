@@ -1,0 +1,3788 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_1.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_1.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_1.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_1     from: 1   to: 131
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_2.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_2.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_2.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_2     from: 1   to: 93
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_3.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_3.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_3.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_3     from: 1   to: 52
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_4.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_4.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_4.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_4     from: 1   to: 53
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_5.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_5.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_5.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_5     from: 1   to: 58
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 19 of sequence
+End = position 22 of sequence
+
+Motif = AMIDATION
+
+FVFANRGKKCAGSG
+     |  |
+    19  22
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_6.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_6.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_6.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_6     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_7.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_7.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_7.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_7     from: 1   to: 52
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 33 of sequence
+End = position 36 of sequence
+
+Motif = AMIDATION
+
+SRCFDFGRKLACSQ
+     |  |
+    33  36
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_8.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_8.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_8.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_8     from: 1   to: 58
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 56 of sequence
+End = position 58 of sequence
+
+Motif = MICROBODIES_CTER
+
+SWPVEGRL
+     | |
+    56 58
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_9.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_9.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_9.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_9     from: 1   to: 63
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_10.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_10.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_10.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_10     from: 1   to: 67
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_11.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_11.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_11.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_11     from: 1   to: 109
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_12.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_12.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_12.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_12     from: 1   to: 76
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_13.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_13.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_13.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_13     from: 1   to: 56
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_14.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_14.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_14.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_14     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_15.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_15.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_15.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_15     from: 1   to: 51
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_16.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_16.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_16.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_16     from: 1   to: 63
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_17.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_17.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_17.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_17     from: 1   to: 62
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_18.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_18.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_18.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_18     from: 1   to: 201
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 178 of sequence
+End = position 181 of sequence
+
+Motif = AMIDATION
+
+RGRGGGGRRPCTFV
+     |  |
+   178  181
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_19.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_19.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_19.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_19     from: 1   to: 64
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_20.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_20.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_20.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_20     from: 1   to: 89
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_21.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_21.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_21.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_21     from: 1   to: 122
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_22.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_22.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_22.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_22     from: 1   to: 93
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_23.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_23.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_23.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_23     from: 1   to: 98
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 52 of sequence
+End = position 54 of sequence
+
+Motif = RGD
+
+HQPVGRGDPPTCH
+     | |
+    52 54
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_24.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_24.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_24.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_24     from: 1   to: 3192
+# HitCount: 4
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 2593 of sequence
+End = position 2596 of sequence
+
+Motif = AMIDATION
+
+ALDTRFGRKLSIIR
+     |  |
+  2593  2596
+
+Length = 4
+Start = position 1580 of sequence
+End = position 1583 of sequence
+
+Motif = AMIDATION
+
+DGIMASGRKAVTHA
+     |  |
+  1580  1583
+
+Length = 22
+Start = position 1494 of sequence
+End = position 1515 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+TTCVQLQKQVLDLLAQLVQLRVNYCLLDSDQV
+     |                    |
+  1494                    1515
+
+Length = 8
+Start = position 2764 of sequence
+End = position 2771 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+DLFTERNQFELMYVTLTE
+     |      |
+  2764      2771
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_25.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_25.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_25.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_25     from: 1   to: 97
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_26.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_26.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_26.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_26     from: 1   to: 101
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_27.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_27.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_27.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_27     from: 1   to: 121
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_28.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_28.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_28.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_28     from: 1   to: 97
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_29.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_29.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_29.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_29     from: 1   to: 52
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_30.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_30.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_30.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_30     from: 1   to: 92
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_31.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_31.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_31.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_31     from: 1   to: 68
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_32.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_32.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_32.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_32     from: 1   to: 59
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_33.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_33.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_33.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_33     from: 1   to: 98
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_34.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_34.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_34.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_34     from: 1   to: 61
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_35.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_35.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_35.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_35     from: 1   to: 54
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_36.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_36.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_36.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_36     from: 1   to: 141
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_37.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_37.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_37.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_37     from: 1   to: 72
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_38.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_38.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_38.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_38     from: 1   to: 61
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 54 of sequence
+End = position 57 of sequence
+
+Motif = AMIDATION
+
+WRGSRSGRKGSDV
+     |  |
+    54  57
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_39.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_39.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_39.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_39     from: 1   to: 55
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_40.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_40.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_40.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_40     from: 1   to: 78
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_41.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_41.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_41.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_41     from: 1   to: 92
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_42.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_42.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_42.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_42     from: 1   to: 53
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 45 of sequence
+End = position 48 of sequence
+
+Motif = AMIDATION
+
+YQLSAEGRKTLSCS
+     |  |
+    45  48
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_43.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_43.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_43.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_43     from: 1   to: 82
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_44.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_44.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_44.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_44     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_45.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_45.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_45.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_45     from: 1   to: 67
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_46.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_46.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_46.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_46     from: 1   to: 82
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 80 of sequence
+End = position 82 of sequence
+
+Motif = MICROBODIES_CTER
+
+AVLQRGHV
+     | |
+    80 82
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_47.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_47.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_47.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_47     from: 1   to: 54
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_48.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_48.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_48.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_48     from: 1   to: 56
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 44 of sequence
+End = position 47 of sequence
+
+Motif = AMIDATION
+
+PGLGLLGRRELLRM
+     |  |
+    44  47
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:32
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_49.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_49.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_49.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_49     from: 1   to: 68
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_50.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_50.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_50.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_50     from: 1   to: 63
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_51.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_51.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_51.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_51     from: 1   to: 62
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_52.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_52.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_52.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_52     from: 1   to: 114
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_53.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_53.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_53.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_53     from: 1   to: 50
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_54.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_54.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_54.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_54     from: 1   to: 101
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_55.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_55.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_55.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_55     from: 1   to: 55
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 45 of sequence
+End = position 48 of sequence
+
+Motif = AMIDATION
+
+PRRPRPGKRVSSSE
+     |  |
+    45  48
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_56.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_56.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_56.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_56     from: 1   to: 84
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_57.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_57.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_57.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_57     from: 1   to: 67
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_58.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_58.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_58.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_58     from: 1   to: 74
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_59.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_59.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_59.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_59     from: 1   to: 76
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 20 of sequence
+End = position 23 of sequence
+
+Motif = AMIDATION
+
+LTPPRNGRKFHLPG
+     |  |
+    20  23
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_60.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_60.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_60.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_60     from: 1   to: 93
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 76 of sequence
+End = position 79 of sequence
+
+Motif = AMIDATION
+
+EGRHILGKKHASVH
+     |  |
+    76  79
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_61.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_61.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_61.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_61     from: 1   to: 52
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_62.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_62.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_62.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_62     from: 1   to: 87
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_63.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_63.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_63.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_63     from: 1   to: 129
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_64.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_64.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_64.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_64     from: 1   to: 87
+# HitCount: 2
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 38 of sequence
+End = position 45 of sequence
+
+Motif = TYR_PHOSPHO_SITE_1
+
+FRSRRKQEEDKLYVEPSD
+     |      |
+    38      45
+
+Length = 8
+Start = position 38 of sequence
+End = position 45 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+FRSRRKQEEDKLYVEPSD
+     |      |
+    38      45
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_65.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_65.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_65.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_65     from: 1   to: 105
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_66.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_66.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_66.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_66     from: 1   to: 127
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 125 of sequence
+End = position 127 of sequence
+
+Motif = MICROBODIES_CTER
+
+RQPCLARL
+     | |
+   125 127
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_67.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_67.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_67.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_67     from: 1   to: 182
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_68.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_68.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_68.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_68     from: 1   to: 90
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_69.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_69.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_69.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_69     from: 1   to: 78
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_70.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_70.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_70.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_70     from: 1   to: 65
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 31 of sequence
+End = position 34 of sequence
+
+Motif = AMIDATION
+
+PASQLLGRRHPRAS
+     |  |
+    31  34
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_71.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_71.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_71.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_71     from: 1   to: 53
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_72.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_72.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_72.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_72     from: 1   to: 58
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_73.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_73.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_73.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_73     from: 1   to: 63
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 61 of sequence
+End = position 63 of sequence
+
+Motif = MICROBODIES_CTER
+
+RFTYFTRA
+     | |
+    61 63
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_74.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_74.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_74.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_74     from: 1   to: 66
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_75.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_75.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_75.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_75     from: 1   to: 67
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_76.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_76.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_76.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_76     from: 1   to: 73
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_77.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_77.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_77.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_77     from: 1   to: 155
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_78.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_78.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_78.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_78     from: 1   to: 100
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_79.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_79.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_79.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_79     from: 1   to: 202
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_80.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_80.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_80.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_80     from: 1   to: 61
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 46 of sequence
+End = position 49 of sequence
+
+Motif = AMIDATION
+
+RSLWRPGRKGSRPP
+     |  |
+    46  49
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_81.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_81.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_81.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_81     from: 1   to: 77
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 75 of sequence
+End = position 77 of sequence
+
+Motif = MICROBODIES_CTER
+
+DCPVLCRV
+     | |
+    75 77
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_82.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_82.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_82.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_82     from: 1   to: 148
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_83.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_83.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_83.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_83     from: 1   to: 145
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 31 of sequence
+End = position 34 of sequence
+
+Motif = AMIDATION
+
+FMMSWGGKKSSRNW
+     |  |
+    31  34
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_84.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_84.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_84.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_84     from: 1   to: 84
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_85.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_85.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_85.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_85     from: 1   to: 118
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_86.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_86.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_86.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_86     from: 1   to: 51
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_87.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_87.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_87.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_87     from: 1   to: 127
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_88.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_88.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_88.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_88     from: 1   to: 51
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_89.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_89.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_89.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_89     from: 1   to: 54
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_90.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_90.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_90.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_90     from: 1   to: 95
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_91.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_91.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_91.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_91     from: 1   to: 51
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_92.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_92.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_92.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_92     from: 1   to: 68
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_93.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_93.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_93.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_93     from: 1   to: 70
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_94.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_94.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_94.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_94     from: 1   to: 240
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 191 of sequence
+End = position 194 of sequence
+
+Motif = AMIDATION
+
+IQLAPVGRRLCRQL
+     |  |
+   191  194
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_95.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_95.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_95.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_95     from: 1   to: 166
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_96.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_96.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_96.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_96     from: 1   to: 85
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_97.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_97.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_97.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_97     from: 1   to: 68
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_98.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_98.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_98.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_98     from: 1   to: 58
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_99.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_99.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_99.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_99     from: 1   to: 56
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_100.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_100.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_100.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_100     from: 1   to: 87
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_101.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_101.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_101.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_101     from: 1   to: 74
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_102.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_102.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_102.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_102     from: 1   to: 52
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_103.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_103.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_103.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_103     from: 1   to: 50
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_104.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_104.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_104.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_104     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_105.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_105.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_105.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_105     from: 1   to: 61
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_106.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_106.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_106.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_106     from: 1   to: 94
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_107.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_107.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_107.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_107     from: 1   to: 57
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_108.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_108.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_108.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_108     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_109.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_109.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_109.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_109     from: 1   to: 86
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_110.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_110.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_110.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_110     from: 1   to: 63
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_111.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_111.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_111.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_111     from: 1   to: 56
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_112.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_112.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_112.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_112     from: 1   to: 90
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_113.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_113.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_113.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_113     from: 1   to: 75
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_114.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_114.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_114.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_114     from: 1   to: 57
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_115.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_115.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_115.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_115     from: 1   to: 82
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:33
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_116.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_116.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_116.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_116     from: 1   to: 73
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_117.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_117.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_117.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_117     from: 1   to: 56
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_118.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_118.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_118.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_118     from: 1   to: 75
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_119.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_119.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_119.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_119     from: 1   to: 58
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_120.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_120.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_120.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_120     from: 1   to: 61
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 13 of sequence
+End = position 16 of sequence
+
+Motif = AMIDATION
+
+LGAVADGRRGLGPI
+     |  |
+    13  16
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_121.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_121.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_121.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_121     from: 1   to: 132
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_122.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_122.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_122.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_122     from: 1   to: 127
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_123.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_123.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_123.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_123     from: 1   to: 67
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_124.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_124.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_124.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_124     from: 1   to: 54
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_125.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_125.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_125.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_125     from: 1   to: 63
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_126.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_126.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_126.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_126     from: 1   to: 69
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_127.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_127.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_127.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_127     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_128.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_128.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_128.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_128     from: 1   to: 82
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 76 of sequence
+End = position 79 of sequence
+
+Motif = AMIDATION
+
+LVRVRHGRRFTR
+     |  |
+    76  79
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_129.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_129.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_129.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_129     from: 1   to: 60
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_130.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_130.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_130.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_130     from: 1   to: 56
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_131.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_131.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_131.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_131     from: 1   to: 81
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_132.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_132.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_132.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_132     from: 1   to: 83
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 80 of sequence
+End = position 83 of sequence
+
+Motif = AMIDATION
+
+AMNGALGRR
+     |  |
+    80  83
+
+
+#---------------------------------------
+#---------------------------------------
+
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 21 Jun 2026 20:46:34
+# Commandline: patmatmotifs
+#    -sequence /tmp/tmpdlp45c2t/seq_133.fas
+#    -outfile /tmp/tmpdlp45c2t/seq_133.out
+#    -auto
+# Report_format: dbmotif
+# Report_file: /tmp/tmpdlp45c2t/seq_133.out
+########################################
+
+#=======================================
+#
+# Sequence: NM_002111_133     from: 1   to: 142
+# HitCount: 5
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 20 of sequence
+End = position 23 of sequence
+
+Motif = AMIDATION
+
+RAGWRRGRRRGRLR
+     |  |
+    20  23
+
+Length = 22
+Start = position 62 of sequence
+End = position 83 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+LLLLLLLLLLLLLLLLLLLLLEGLEGLEGLHQ
+     |                    |
+    62                    83
+
+Length = 22
+Start = position 59 of sequence
+End = position 80 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+RLLLLLLLLLLLLLLLLLLLLLLLEGLEGLEG
+     |                    |
+    59                    80
+
+Length = 22
+Start = position 56 of sequence
+End = position 77 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+RRWRLLLLLLLLLLLLLLLLLLLLLLLEGLEG
+     |                    |
+    56                    77
+
+Length = 22
+Start = position 55 of sequence
+End = position 76 of sequence
+
+Motif = LEUCINE_ZIPPER
+
+RRRWRLLLLLLLLLLLLLLLLLLLLLLLEGLE
+     |                    |
+    55                    76
+
+
+#---------------------------------------
+#---------------------------------------
+
